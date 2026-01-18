@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Focus Reader for Claude",
+  "version": "1.2.0",
+  "description": "Customizable typography and bionic reading for Claude - fonts, spacing, and bold anchors to improve focus and readability",
+  "permissions": ["activeTab", "storage"],
+  "host_permissions": ["https://claude.ai/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://claude.ai/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}

@@ -1,0 +1,27 @@
+/**
+ * Bionic Reading for Claude - Styles
+ */
+
+/* Bold portions of words */
+.bionic-bold {
+  font-weight: 700;
+}
+
+/* Container for processed text */
+.bionic-text {
+  /* Inherit all styles from parent */
+  all: unset;
+  display: inline;
+}
+
+/* Ensure code blocks are not affected */
+pre .bionic-bold,
+code .bionic-bold,
+.code-block .bionic-bold {
+  font-weight: inherit;
+}
+
+/* Optional: slightly increase letter-spacing for better readability */
+.standard-markdown.bionic-processed {
+  letter-spacing: 0.01em;
+}
