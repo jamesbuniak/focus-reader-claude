@@ -4,6 +4,13 @@ A Chrome extension that improves readability on Claude.ai with customizable font
 
 Built this for myself because my brain was fried and I couldn't focus. Maybe it'll help you too.
 
+## Sample
+<img width="699" height="206" alt="image" src="https://github.com/user-attachments/assets/c32bbb78-1849-4fad-a6ea-9f384cb9f871" />
+
+## Settings
+<img width="332" height="612" alt="image" src="https://github.com/user-attachments/assets/44f689e1-89c2-4bac-a380-91a49d88dd73" />
+
+
 ## Features
 
 **Typography Controls**
